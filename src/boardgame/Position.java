@@ -28,6 +28,11 @@ public class Position {
 		this.column = column;
 	}
 	
+	public void setValues(int row, int column) {
+		this.row = row;
+		this.column = column;
+	}
+	
 	//Classe Object é uma superclasse de todas as classes:
 	//Conceito de sobreposição(Override) quando fazemos o toString
 	//estamos sobrescrevendo o método toString da classe Object 
